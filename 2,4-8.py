@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import math
 import pyperclip as pc
 
-
+#решение задачи
 def calc(): #решалка задания
     driver.find_element(By.CLASS_NAME, 'form-control').send_keys(
         str(math.log(abs(12 * math.sin(int(
